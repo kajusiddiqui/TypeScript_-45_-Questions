@@ -1,0 +1,6 @@
+
+Node.js		20.11.1
+
+TypeScript 	5.3.3
+
+VS Code 	1.87.0
