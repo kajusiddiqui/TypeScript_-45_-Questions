@@ -1,3 +1,4 @@
+"use strict";
 //Author Name: [Muhammad Kazim]
 //Date 7th March 2024
 /*

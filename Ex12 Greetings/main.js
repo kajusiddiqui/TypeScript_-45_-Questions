@@ -1,3 +1,4 @@
+"use strict";
 /* Ex11
 
  Store the names of a few of your friends in a array called names. Print each person’s name
@@ -9,5 +10,5 @@ by accessing each element in the list, one at a time.
 /*Ex12 : Start with the array you used in Exercise 11, but instead of just printing
 each person’s name, print a message to them. The text of each message should be
 the same,but each message should be personalized with the person’s name.*/
-var names = ["Ali", "Bilal", "Kanwal", "Kazim"];
-names.forEach(function (friendsname) { return console.log(" ".concat(friendsname, ", let's go for Dinner.")); });
+let names = ["Ali", "Bilal", "Kanwal", "Kazim"];
+names.forEach(friendsname => console.log(` ${friendsname}, let's go for Dinner.`));
